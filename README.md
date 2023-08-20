@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# Proyecto Desafío Frontend Developer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este es un proyecto de frontend desarrollado como parte de un desafío. La aplicación consta de una barra de navegación que contiene tres elementos: Inicio, Pokemones y Contacto. La página de inicio y la página de contacto muestran una tarjeta con el contenido respectivo. La página de Pokemones muestra una tabla con información sobre los primeros 50 Pokémon y ofrece una barra de búsqueda para filtrarlos por nombre.
 
-## Available Scripts
+## Tecnologías Utilizadas
 
-In the project directory, you can run:
+- React
+- React Router
+- Material-UI
+- Axios
 
-### `npm start`
+## Instrucciones de Instalación
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Clona este repositorio: `git clone https://github.com/DominguezNico/PokeApp.git`
+2. Navega a la carpeta del proyecto: `cd PokeApp`
+3. Instala las dependencias: `npm install`
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Instrucciones de Ejecución
 
-### `npm test`
+Para correr el proyecto, ejecuta: `npm start`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+La aplicación se abrirá en tu navegador web y podrás navegar por las distintas páginas utilizando la barra de navegación.
 
-### `npm run build`
+## Estructura del Proyecto
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- `src/components`: Contiene los componentes de la aplicación.
+- `src/styles`: Contiene los estilos de la aplicación.
+- `src/App.js`: Configuración de las rutas y la barra de navegación.
+- `src/index.js`: Punto de entrada de la aplicación.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Componentes Principales
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### NavBar
 
-### `npm run eject`
+La barra de navegación que contiene enlaces a las páginas de Inicio, Pokemones y Contacto.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Home
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+La página de inicio que muestra una tarjeta con información de bienvenida.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Pokemon
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+La página de Pokemones que muestra una tabla con los primeros 50 Pokémon y una barra de búsqueda para filtrarlos por nombre.
 
-## Learn More
+### Contact
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+La página de contacto que muestra una tarjeta con información de contacto.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
